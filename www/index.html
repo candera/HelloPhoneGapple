@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Hello World</title>
+    <script type="text/javascript" charset="utf-8" src="phonegap-1.4.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="main.js"></script>
+
+  </head>
+  <body>
+    <h1>Hello Cruel World</h1>
+
+    <div>X: <span id="acc-x">N/A</span></div>
+    <div>Y: <span id="acc-y">N/A</span></div>
+    <div>Z: <span id="acc-z">N/A</span></div>
+    <div>T: <span id="acc-t">N/A</span></div>
+
+    <input type="textarea" id="command" />
+    <input type="button" value="Go" onclick="evaluate();" />
+      <a href="javascript:evaluate();">Click me</a>
+    <div id="result">N/A</div>
+
+    <script>
+        //function evaluate() { alert(document.getElementById("command").value); }
+//        function evaluate() { alert("hello"); }
+        alert("Got here 4");
+//        kljasdf.asdlkjads();
+      console.log("Got here too");
+        alert("Got here as well");
+      HelloPhoneGap.start();
+        function evaluate() { document.getElementById("result").innerText = eval(document.getElementById("command").value); }
+    </script>
+  </body>
+</html>

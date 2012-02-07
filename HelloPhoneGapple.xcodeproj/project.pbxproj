@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5CCECF714E1A86700EBFDDB /* www in Resources */ = {isa = PBXBuildFile; fileRef = D5CCECF614E1A86700EBFDDB /* www */; };
 		D5D6F5F414E1A71B00E48B65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D6F5F314E1A71B00E48B65 /* Foundation.framework */; };
 		D5D6F5F614E1A71B00E48B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D6F5F514E1A71B00E48B65 /* UIKit.framework */; };
 		D5D6F5F814E1A71B00E48B65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D6F5F714E1A71B00E48B65 /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5CCECF614E1A86700EBFDDB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		D5D6F5EF14E1A71B00E48B65 /* HelloPhoneGapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPhoneGapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D6F5F314E1A71B00E48B65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5D6F5F514E1A71B00E48B65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,10 +54,10 @@
 		D5D6F60714E1A71B00E48B65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D5D6F60914E1A71B00E48B65 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D5D6F60B14E1A71B00E48B65 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D5D6F60F14E1A71B00E48B65 /* HelloPhoneGapple-Info.plist */ = {isa = PBXFileReference; path = "HelloPhoneGapple-Info.plist"; sourceTree = "<group>"; };
+		D5D6F60F14E1A71B00E48B65 /* HelloPhoneGapple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPhoneGapple-Info.plist"; sourceTree = "<group>"; };
 		D5D6F61114E1A71B00E48B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5D6F61314E1A71B00E48B65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5D6F61514E1A71B00E48B65 /* HelloPhoneGapple-Prefix.pch */ = {isa = PBXFileReference; path = "HelloPhoneGapple-Prefix.pch"; sourceTree = "<group>"; };
+		D5D6F61514E1A71B00E48B65 /* HelloPhoneGapple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPhoneGapple-Prefix.pch"; sourceTree = "<group>"; };
 		D5D6F61614E1A71B00E48B65 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		D5D6F61B14E1A71C00E48B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5D6F61F14E1A71C00E48B65 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -66,12 +68,12 @@
 		D5D6F62B14E1A71C00E48B65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		D5D6F62D14E1A71C00E48B65 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		D5D6F62F14E1A71C00E48B65 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		D5D6F63214E1A71C00E48B65 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		D5D6F63214E1A71C00E48B65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D5D6F63314E1A71C00E48B65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		D5D6F63514E1A71C00E48B65 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		D5D6F63514E1A71C00E48B65 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		D5D6F63614E1A71C00E48B65 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		D5D6F63814E1A71C00E48B65 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		D5D6F63B14E1A71C00E48B65 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		D5D6F63B14E1A71C00E48B65 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		D5D6F5E114E1A71B00E48B65 = {
 			isa = PBXGroup;
 			children = (
+				D5CCECF614E1A86700EBFDDB /* www */,
 				D5D6F60D14E1A71B00E48B65 /* HelloPhoneGapple */,
 				D5D6F5F214E1A71B00E48B65 /* Frameworks */,
 				D5D6F5F014E1A71B00E48B65 /* Products */,
@@ -299,6 +302,7 @@
 				D5D6F62E14E1A71C00E48B65 /* Capture.bundle in Resources */,
 				D5D6F63014E1A71C00E48B65 /* PhoneGap.plist in Resources */,
 				D5D6F63914E1A71C00E48B65 /* MainViewController.xib in Resources */,
+				D5CCECF714E1A86700EBFDDB /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				D5D6F64014E1A71C00E48B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
